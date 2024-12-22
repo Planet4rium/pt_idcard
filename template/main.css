@@ -1,0 +1,87 @@
+.ptid_cont{
+    box-sizing: border-box; 
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 2.375;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(170deg, #000000d9, #9ccc58);
+    border-radius: 20px; 
+    padding: 20px;
+    font-family: 'Roboto', serif;
+    position: relative;
+    z-index: -2;
+    opacity: .9;
+}
+
+.ptid_bgr{
+    position: absolute;
+    opacity: .4;
+    left: 50%;
+    top: calc(50% - 64px);
+    z-index: -1;
+}
+
+.ptid_lr{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.ptid_image{
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.ptid_code{
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    width: 128px;
+    overflow: hidden;
+    color: azure;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.ptid_cont hr{
+    border: 1px solid #707070;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ptid_rr{
+    width: calc(100% - 145px);
+    float: right;
+    color: #888888;
+    font-weight: 600;
+    overflow: hidden;
+    line-height: 28px;
+}
+
+.ptid_highlight{
+    color: azure;
+    white-space: nowrap;
+    font-size: 23px;
+    padding-left: 10px;
+}
+
+.ptid_tinytext{
+    font-size: 15px;
+    font-weight: 800;
+    width: 100%;
+    height: 28px;
+    text-transform: uppercase;
+}
+
+.ptid_header{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    height: 28px;
+    margin-bottom: 28px;
+}
+
