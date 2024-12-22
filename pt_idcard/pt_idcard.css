@@ -1,7 +1,6 @@
 .ptid_cont{
     box-sizing: border-box; 
-    width: 100%;
-    max-width: 100%;
+    width: 475px;
     aspect-ratio: 2.375;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -11,7 +10,7 @@
     font-family: 'Roboto', serif;
     position: relative;
     z-index: -2;
-    opacity: .9;
+    opacity: 1.0;
 }
 
 .ptid_bgr{
@@ -41,7 +40,7 @@
     overflow: hidden;
     color: azure;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 17px;
     text-transform: uppercase;
 }
 
