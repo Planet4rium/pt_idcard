@@ -12,3 +12,15 @@ Instalation:
 <link href="https://fonts.googleapis.com/css2?family=PT+Mono&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 ```
 - add folder to file loading to chat fxmanifest ('path_to_folder/pt_idcard/*')
+- add client export (`pt_idcard.showCard`) to your card items and disable consume on use in `ox_inventory/data/items.lua`. Example:
+```lua
+['idcard'] = {
+    label = 'Identification',
+    weight = 50,
+    consume = 0,
+    client = {
+        export = 'pt_idcard.showCard'
+    },
+    stack = false,
+},
+```
