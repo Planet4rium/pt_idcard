@@ -11,7 +11,7 @@ client_scripts {
 	'MugshotBase64/client.lua'
 }
 server_scripts {
-	'Server/**/*'
+	'server.lua'
 }
 shared_scripts {
 	'config.lua',
@@ -21,6 +21,8 @@ shared_scripts {
 files {
 	'MugshotBase64/html/**/*'
 }
+
+export 'showCard'
 
 dependency 'MugshotBase64'
 -- This script uses edited version of 'MugShotBase64' by BaziForYou (https://github.com/BaziForYou/MugShotBase64)
