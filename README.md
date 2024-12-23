@@ -2,8 +2,7 @@
 
 Instalation:
 - add template/pt_idcard folder to you chat resource (Default chat > chat/dist)
-- add to your chat html <head>:
-```html
+- add to your chat html head:```html
 <link rel='stylesheet' type='text/css' href='pt_idcard.css'>
 <link rel='stylesheet' type='text/css' href='pt_badge.css'>
 
